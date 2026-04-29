@@ -32,9 +32,9 @@
 
 /**
  * @file 4A7A2-OBOGS_PANEL.ino
- * @author Arribe
+ * @author Arribe, Ash
  * @date 03.05.2024
- * @version u.0.0.1 (partially untested)
+ * @version u.0.1.0 (partially untested)
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @warning This sketch is based on a wiring diagram for the NUC Switch, but it was not yet tested on hardware.  The NUC Switch is a simple 2 position DCSBios switch. It is highly likely it will work fine.
  * All other switches were tested successfully.
@@ -60,9 +60,7 @@
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
  *
- * @bug Currently does not work with the Pro Micro (32U4), Fails to compile. 
-
-   #define DCSBIOS_RS485_SLAVE 10 ///DCSBios RS485 Bus Address, once bug resolved move line below comment.
+   #define DCSBIOS_RS485_SLAVE 10 ///DCSBios RS485 Bus Address
 */
 
 /**
