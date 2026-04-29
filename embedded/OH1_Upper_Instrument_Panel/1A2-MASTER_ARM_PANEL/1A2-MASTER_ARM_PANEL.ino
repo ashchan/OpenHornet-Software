@@ -32,9 +32,9 @@
 
 /**
  * @file 1A2-MASTER_ARM_PANEL.ino
- * @author Sandra Carroll (<a href="mailto:smgvbest@gmail.com">smgvbest@gmail.com</a>), Arribe
+ * @author Sandra Carroll (<a href="mailto:smgvbest@gmail.com">smgvbest@gmail.com</a>), Arribe, Ash
  * @date 3.02.2024
- * @version 0.0.2
+ * @version 0.1.0
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @brief Controls the MASTER ARM panel. 
  *
@@ -59,8 +59,7 @@
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
  *
- * @bug Currently does not work with the Pro Micro (32U4), Fails to compile. 
- *   #define DCSBIOS_RS485_SLAVE 1 ///DCSBios RS485 Bus Address, once bug resolved move line below comment.
+ *   #define DCSBIOS_RS485_SLAVE 1 ///DCSBios RS485 Bus Address
  */
 
 /**

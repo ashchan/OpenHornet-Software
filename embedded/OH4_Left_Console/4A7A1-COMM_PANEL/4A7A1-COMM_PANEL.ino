@@ -34,7 +34,7 @@
  * @file 4A7A1-COMM_PANEL.ino
  * @author Arribe, Ash
  * @date 03.03.2024
- * @version 0.1.0
+ * @version 0.2.0
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @brief @brief Controls the COMM panel & ANT SEL panel.
  *
@@ -94,7 +94,7 @@
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
  *
-   #define DCSBIOS_RS485_SLAVE 8 ///DCSBios RS485 Bus Address, once bug resolved move line below comment.
+   #define DCSBIOS_RS485_SLAVE 8 ///DCSBios RS485 Bus Address
 */
 
 /**

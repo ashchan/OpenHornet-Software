@@ -34,7 +34,7 @@
  * @file 4A3A1-SELECT_JETT_PANEL.ino
  * @author Arribe, Ash
  * @date 03.24.2026
- * @version 0.1.0
+ * @version 0.2.0
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @brief Controls the SELECT JETT panel.
  *
@@ -66,9 +66,7 @@
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
  *
- * @bug Currently does not work with the Pro Micro (32U4), Fails to compile. 
- *
-//#define DCSBIOS_RS485_SLAVE 1 ///DCSBios RS485 Bus Address, once bug resolved move line below comment.
+//#define DCSBIOS_RS485_SLAVE 1 ///DCSBios RS485 Bus Address
 */
 
 /**

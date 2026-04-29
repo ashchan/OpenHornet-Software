@@ -34,7 +34,7 @@
  * @file 4A6A1-FCS_PANEL.ino
  * @author Arribe, Ash
  * @date 03.04.2024
- * @version u.0.1.0 (partially tested)
+ * @version u.0.2.0 (partially tested)
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @warning This sketch is based on a wiring diagram, but the Rudder trim speed is set to full-on.  
  * The rudder trim speed is untested, the test hardware was wired directly to always run at full power.
@@ -64,9 +64,7 @@
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
  *
- * @bug Currently does not work with the Pro Micro (32U4), Fails to compile. 
-
-   #define DCSBIOS_RS485_SLAVE 7 ///DCSBios RS485 Bus Address, once bug resolved move line below comment.
+   #define DCSBIOS_RS485_SLAVE 7 ///DCSBios RS485 Bus Address
 */
 
 /**

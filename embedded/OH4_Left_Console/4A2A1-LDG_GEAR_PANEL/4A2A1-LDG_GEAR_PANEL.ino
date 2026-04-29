@@ -32,9 +32,9 @@
 
 /**
  * @file 4A2A1-LDG_GEAR_PANEL.ino
- * @author Arribe
+ * @author Arribe, Ash
  * @date 2/28/2024
- * @version 0.0.3
+ * @version 0.1.0
  * @copyright Copyright 2016-2024 OpenHornet. Licensed under the Apache License, Version 2.0.
  * @brief Controls the LDG GEAR panel.
  *
@@ -58,8 +58,6 @@
  * @brief The following #define tells DCS-BIOS that this is a RS-485 slave device.
  * It also sets the address of this slave device. The slave address should be
  * between 1 and 126 and must be unique among all devices on the same bus.
- *
- * @bug Currently does not work with the Pro Micro (32U4), Fails to compile. 
  *
  // #define DCSBIOS_RS485_SLAVE 1
 */
